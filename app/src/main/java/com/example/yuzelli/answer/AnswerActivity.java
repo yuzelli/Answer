@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.RadioButton;
@@ -39,6 +40,8 @@ public class AnswerActivity extends Activity implements View.OnClickListener {
         initData();
         initView();
         setData();
+
+        Log.d("--->","ddd");
     }
 
 
